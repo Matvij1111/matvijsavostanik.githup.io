@@ -1,0 +1,49 @@
+.logo {
+    height: 60px;
+}
+
+.container {
+    max-width: 1200px; 
+    padding: 0 20px;
+    margin: 0 20px;
+}
+.header {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body {
+    margin: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    color: yellow;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+.main-row {
+    display: flex;
+}
+
+@media (max-width:700px) {
+    .main-row { 
+        flex-direction: column-reverse;
+    }
+
+}
